@@ -1,0 +1,41 @@
+HELP.md
+.gradle
+build/
+logs/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/src/main/resources/countries.json
+/src/main/resources/dns.json
+/src/main/resources/districts/
+/src/main/resources/Hospitals.json
+/src/main/resources/distrits_wit_feature.json
+/src/main/resources/GN_Boundary_TableToExcel_1 (3).xls
+/src/main/resources/Total Patients First 350 V3.xlsx
+/src/main/resources/static/
